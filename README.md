@@ -1,29 +1,24 @@
 # Calcul de Volatilité Implicite
 
-🧠 Ce script extrait la **volatilité implicite** à partir d’un **prix de marché d’option** en inversant la formule de Black-Scholes à l’aide de la méthode de Brent.
+Extrait la volatilité implicite à partir d’un prix de marché d’option en inversant la formule de Black-Scholes à l’aide de la méthode de Brent.
 
-## 🧩 Paramètres utilisés
-
-- Prix du sous-jacent : 100 €
-- Strike : 100 €
-- Maturité : 0.5 an
-- Taux sans risque : 1%
-- Prix de marché observé : 5.5 €
-
-## ▶️ Exécution
+#Exécution
 
 ```bash
 python3 implied_volatility.py
 ```
 
-## 📦 Dépendances
+ Dépendances
 
 ```
 numpy  
 scipy
 ```
 
-## 👨‍💻 Auteur
+##  Tester en ligne via Google Colab
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gabriel-Benguigui/implied-volatility/blob/main/implied_volatility.ipynb)
+
+## Auteur
 
 Gabriel Benguigui  
 Master Financial Markets & Risk Evaluation — TSM
